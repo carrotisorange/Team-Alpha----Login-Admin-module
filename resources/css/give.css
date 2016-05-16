@@ -1,0 +1,108 @@
+.give{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+.Uploadpic{
+	width:50%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+#image-preview {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background-color:transparent;
+  color: #000;
+}
+#image-label{
+  	margin: auto;
+  	font-size: 2em;
+  	display: block;
+  	margin-top: 3em;
+  	cursor: pointer;
+  	text-align: center;
+  	background-color:#727272;
+  	color: #fff;
+  	opacity: 0.5;
+}
+input[type="file"]{
+	opacity: 0;
+}
+.boxupload{
+	width:50%;
+	height: auto;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+input[type="text"].prodname 
+{
+  display: block;
+  padding: 5px 5px;
+  font-size: 15px;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.catchoice{
+  display: block;
+  padding: 5px 5px;
+  font-size: 15px;
+  width: 30%;
+  margin-bottom: 2%;
+}
+input[type="number"].quantity{
+  display: block;
+  padding: 5px 5px;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+textarea{
+	width:90%;
+	height:100px;
+	display: block;
+	padding: 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+.donate{
+	display: block;
+	width: 50%;
+	height: 2em;
+	border: 0;
+	background-color: #FF4511;
+	color: #fff;
+	font-size: 1em;
+}
+.donate:hover{
+	background-color: #FF5722;
+}
+
+@media screen and (max-width: 720px){
+  .Uploadpic{
+  width:98%;
+  }
+  #image-preview {
+  width: 350px;
+  height: 350px;
+  }
+  #image-label{
+    font-size: 1.5em;
+  }
+  .boxupload{
+  width:98%;
+  }
+
+}
+@media screen and (min-width: 721px) and (max-width: 1024px){
+  .boxupload{
+  width:80%;
+  }
+}
